@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300&family=Lexend+Deca:wght@300&display=swap');
+
+.centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+  
+.h1{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+}
+
+.img {
+  max-width: 100%;
+  height: 25vw;
+  overflow: hidden;
+}
+  
+.content{
+  display: block;
+  margin-left: 23rem;
+  margin-right: 23rem;
+  padding: 10px;
+  text-align: justify;
+}
+
+.content p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 0px;
+}
+
+
+.comments {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #EEF0F3;
+}
+
+.info{
+  color: rgb(46, 71, 93);
+  align-items: center;
+  border-bottom: 2px solid rgb(46, 71, 93);
+  border-top: 2px solid rgb(46, 71, 93);
+  display: grid;
+  margin-top: 5px;
+  grid-template-columns: 4fr 1.5fr;
+}
+
+.authors{
+  color: rgb(46, 71, 93);
+  align-items: center;
+  margin-top: 0px;
+  grid-template-columns: max-content max-content 1fr;
+  grid-template-rows: auto;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.blog-post-header-author-avatar{
+  -webkit-font-smoothing: antialiased;
+  color: rgb(46, 71, 93);
+  box-sizing: border-box;
+  border: 0px;
+  font: inherit;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: baseline;
+  max-width: 100%;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  grid-area: -primary / 1 / -primary / 1;
+}
+
+.dates{
+  color: rgb(46, 71, 93);
+  box-sizing: border-box;
+  border: 0px;
+  font: inherit;
+  text-align: right;
+}
+
+.dates p {
+  color: #2e475d;
+  line-height: 1.75;
+  margin: 0;
+}
+.dates-updated {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.57;
+}
+.para{
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.75;
+  display: block;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.lnk{
+  color: inherit;
+  font-family: inherit;
+}
